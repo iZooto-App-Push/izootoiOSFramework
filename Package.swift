@@ -15,7 +15,7 @@ let package = Package(
             targets: ["izootoiOSSDK"]),
     ],
     targets: [
-        .binaryTarget(name: "izootoiOSSDK", url: "https://swift.izooto.com/package/izootoiOSSDK.xcframework.zip", checksum: "7c6fd31e817e973b7c7546ccaca2f3fb71dd08d8cc9e5e585bc307ee9d0d0378")
+        .binaryTarget(name: "izootoiOSSDK", url: "https://swift.izooto.com/package/izootoiOSSDK.xcframework.zip", checksum: "e0c47bfafb9383ffa37f752bc44d18fc0d7835414c158554d39a7c639a8a5cab")
     ]
 )
 
