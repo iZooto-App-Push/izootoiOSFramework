@@ -12,10 +12,10 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "izootoiOSFramework",
-            targets: ["izootoiOSSDK"]),
+            targets: ["iZootoiOSSDK"]),
     ],
     targets: [
-        .binaryTarget(name: "izootoiOSSDK", url: "https://swift.izooto.com/package/izootoiOSSDK.xcframework.zip", checksum: "e0c47bfafb9383ffa37f752bc44d18fc0d7835414c158554d39a7c639a8a5cab")
+        .binaryTarget(name: "iZootoiOSSDK", url: "https://swift.izooto.com/package/iZootoiOSSDK.xcframework.zip", checksum: "3b21fd74d4908fd4bda1cdb79d625c0eea9be2a193ffad02b21c32cf37c10c67")
     ]
 )
 
